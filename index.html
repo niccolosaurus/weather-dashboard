@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <section class="container">
+
+        <div class="sidenav-container">
+            <h2>Search for a City</h2>
+            <div>
+                <input id="city-name" type="text" placeholder="Search...">
+                <button id="button">Search</button>
+                <div class="searched-cities"></div>
+            </div>      
+        </div>
+
+        <h2 class="current-weather">Current Weather</h2>
+
+        <div class="futureweather">
+            <p>5 Day Forecast</p>
+            <div class="future-days"></div>
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
