@@ -1,0 +1,70 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #FBFFE2;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #EEC373;
+    font-size: 200%;
+    justify-content: center;
+    color: #E23E57;
+}
+
+.container{
+    width: 100%;
+    display:grid;
+    height: 700px;
+    grid-template-areas:
+        'SearchCity TodaysWeather TodaysWeather TodaysWeather TodaysWeather'
+        'SearchCity TodaysWeather TodaysWeather TodaysWeather TodaysWeather'
+        'SearchCity FutureWeather FutureWeather FutureWeather FutureWeather'
+        'SearchCity FutureWeather FutureWeather FutureWeather FutureWeather'
+        
+}
+
+.sidenav-container{
+    grid-area: SearchCity;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidenav-container span{
+    display: flex;
+    justify-content: center;
+}
+
+.current-weather{
+    grid-area: TodaysWeather;
+    border: 2px solid #A13333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.futureweather{
+    grid-area: FutureWeather;
+    font-size: 180%;
+    
+}
+
+.future-days{
+    display: flex;
+
+}
+
+.formatColumns{
+    display: flex;
+    flex-direction: column;
+    background-color: #007bff;
+    
+    margin: 30px;
+}
+
+.searched-cities:hover {
+    cursor: pointer;
+}
