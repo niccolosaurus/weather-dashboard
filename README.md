@@ -1,4 +1,4 @@
-  # Weather Dashboard
+# Weather Dashboard
 
   ----
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -22,11 +22,11 @@ A weather dashboard that uses a weather service API to tell you the weather of t
 Download or clone the repo to your desktop then run using your coding editor of choice.
 
 ### Usage
-![WeatherDashboard](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard.PNG)
+![WeatherDashboard](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard.PNG)</br>
 
-![WeatherDashboard2](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard2.PNG)
+![WeatherDashboard2](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard2.PNG)</br>
 
-![WeatherDashboard3](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard3.PNG)
+![WeatherDashboard3](https://raw.githubusercontent.com/niccolosaurus/weather-dashboard/main/assets/pics/WeatherDashboard3.PNG)</br>
 
 
 
@@ -39,15 +39,13 @@ https://choosealicense.com/licenses/mit/
 
 MIT License
 
-Copyright (c) [2022] [Niccolo Eck]
-
 ### Contribution
-me(niccolosaurus)
+niccolosaurus (Niccolo Eck)
 
 ### Test-Instructions
 
 
 ### Questions
-[Github Profie](https://github.com/niccolosaurus)
-nicco.eck@gmail.com
-https://niccolosaurus.github.io/weather-dashboard/
+[Github Profie](https://github.com/niccolosaurus)</br>
+nicco.eck@gmail.com</br>
+https://niccolosaurus.github.io/weather-dashboard/</br>
